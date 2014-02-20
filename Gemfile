@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
@@ -37,7 +37,7 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
-gem 'mongoid'
+gem 'mongoid',  github: 'mongoid/mongoid'
 gem 'bson_ext'
 gem 'backbone-on-rails'
 # Use ActiveModel has_secure_password

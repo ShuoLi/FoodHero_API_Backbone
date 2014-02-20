@@ -1,0 +1,1 @@
+class Herofood.Models.Dish extends Backbone.Model

@@ -1,0 +1,7 @@
+<h1>Foodhero</h1>
+
+<ul>
+<% for dish in @dishes.models: %>
+  <li><%= dish.get('name') %></li>
+<% end %>
+</ul>

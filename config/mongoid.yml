@@ -1,0 +1,17 @@
+production:
+  sessions:
+    default:
+      uri: <%= 'mongodb://heroku_app22371095:pe34dc560jethjcsh79o76qqct@ds033439.mongolab.com:33439/ ' %>
+      options:
+        max_retries: 30
+        retry_interval: 1
+        timeout: 30
+
+development:
+  sessions:
+    default:
+      uri: <%= 'mongodb://heroku_app22371095:pe34dc560jethjcsh79o76qqct@ds033439.mongolab.com:33439/heroku_app22371095' %>
+      options:
+        max_retries: 30
+        retry_interval: 1
+        timeout: 30
