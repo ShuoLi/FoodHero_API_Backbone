@@ -1,7 +1,7 @@
 production:
   sessions:
     default:
-      uri: <%= 'mongodb://heroku_app22371095:pe34dc560jethjcsh79o76qqct@ds033439.mongolab.com:33439/ ' %>
+      uri: <%= ' mongodb://api-test:api-test@ds027729.mongolab.com:27729/dish' %>
       options:
         max_retries: 30
         retry_interval: 1
@@ -10,7 +10,7 @@ production:
 development:
   sessions:
     default:
-      uri: <%= 'mongodb://heroku_app22371095:pe34dc560jethjcsh79o76qqct@ds033439.mongolab.com:33439/heroku_app22371095' %>
+      uri: <%= 'mongodb://api-test:api-test@ds027729.mongolab.com:27729/dish' %>
       options:
         max_retries: 30
         retry_interval: 1

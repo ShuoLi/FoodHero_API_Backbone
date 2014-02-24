@@ -15,6 +15,8 @@
 //= require underscore
 //= require backbone
 //= require herofood
+//= require angular
+//= require angular-resource
 //= require_tree ../templates
 //= require_tree ./models
 //= require_tree ./collections
